@@ -1,0 +1,66 @@
+Configuration	test_uart_break
+STM32CubeMX 	6.6.1
+Date	07/12/2022
+MCU	STM32G031K8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	Serial Wire	SYS_SWCLK	PA14-BOOT0
+SYS	Serial Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+6	PF2 - NRST	GPIO_EXTI2	T_NRST
+9	PA2	USART2_TX	T_VCP_TX
+10	PA3	USART2_RX	T_VCP_RX
+20	PC6	GPIO_Output	LD3 [Green]
+24	PA13	SYS_SWDIO	T_JTMS
+25	PA14-BOOT0	SYS_SWCLK	T_JTCK
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	Serial Wire	SYS_SWCLK	PA14-BOOT0
+SYS	Serial Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+6	PF2 - NRST	GPIO_EXTI2	T_NRST
+9	PA2	USART2_TX	T_VCP_TX
+10	PA3	USART2_RX	T_VCP_RX
+20	PC6	GPIO_Output	LD3 [Green]
+24	PA13	SYS_SWDIO	T_JTMS
+25	PA14-BOOT0	SYS_SWCLK	T_JTCK
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : test_uart_break
+Project Folder : C:\Users\Thomas\STM32CubeIDE\workspace3_1.9.0\test_uart_break
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_G0 V1.6.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
